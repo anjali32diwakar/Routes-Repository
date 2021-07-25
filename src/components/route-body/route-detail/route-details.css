@@ -1,0 +1,15 @@
+.route-detail {
+    display: inline;
+    margin: 10px;
+}
+
+.route-name {
+    /* margin: 10px; */
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+.route-meta-details {
+    /* margin-left: 10px; */
+    text-align: left;
+}

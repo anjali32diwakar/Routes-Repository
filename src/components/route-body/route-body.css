@@ -1,0 +1,118 @@
+.route-details-container {
+    width: 80%;
+    margin: 50px 50px 20px 50px;
+    position: relative;
+    display: inline-block;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+    color: rgb(87, 85, 85);
+}
+.details-head-container {
+    display: flex;
+    height: 50px
+}
+.details-title {
+    font-weight: 800;
+    font-size: 25px;
+}
+.content {
+    display:flex
+}
+.add-route-button {
+    position: absolute;
+    right: 10px;
+}
+.route {
+    display: flex;
+    border: 1px solid #1297e0;
+    border-radius: 5px;
+    margin: 20px 20px;
+    line-height: 1.5715;
+    height: 100px;
+}
+.route-content {
+    display: block;
+}
+
+.route-add-container {
+    background-color: #fff;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 30%;
+    box-shadow: 1px 2px 4px 2px #bfc0c1;
+    overflow: auto;
+}
+.google-map-container {
+    background-color: #bfc0c1;
+    bottom: 20%;
+    right: auto;
+    top: 30%;
+    left: 22%;
+    position: absolute;
+    z-index: 100;
+    width: 50%;
+    height: 50%;
+    box-shadow: 1px 2px 4px 2px #bfc0c1;
+}
+
+.export-container {
+    display: block;
+    position: absolute;
+    right: 150px;
+    width: 100px;
+    height: 36px;
+    border: 2px solid #1297e0;
+    border-radius: 4px;
+}
+.export-container a {
+    text-decoration: none;
+}
+.export-container img {
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.export-container span {
+    margin-bottom: 5px;
+    display: inline;
+    /* text-decoration: none; */
+    color: #1297e0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.map-head-label {
+    margin: 10px;
+    color: #000;
+    font-weight: 500;
+    display:flex
+}
+.map-close {
+    position: absolute;
+    right: 10px;
+    color:#4a4a4b;
+    display: inline;
+    top: 10px;
+    cursor: pointer;
+}
+.no-data-container {
+    margin-top: 100px;
+}
+.no-route {
+    display: block;
+    margin-top: 50px;
+    color: #2097e0;
+    font-weight: 800;
+    font-size: 20px;
+}
+.bus-head {
+    width: 60px;
+    height: 40px;
+    margin-right: 20px;
+}

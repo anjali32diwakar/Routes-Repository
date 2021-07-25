@@ -1,0 +1,21 @@
+.route-actions {
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+}
+
+.route-action {
+    margin-left: 10px;
+    display: inline;
+    cursor: pointer;
+}
+.action-icon {
+    display: inline;
+}
+.route-action img {
+    width: 20px;
+    height: 20px;
+}
+.action-name {
+    margin-left: 5px;
+}

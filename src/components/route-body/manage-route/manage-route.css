@@ -1,0 +1,104 @@
+.add-route-title {
+    display: flex;
+    margin-bottom: 20px;
+    height: 65px;
+    background-color: #cccccc82;
+    padding: 20px;
+    color: rgb(87, 85, 85);
+    font-size: 20px;
+    font-weight: 800;
+}
+.route-form {
+    margin: 50px 20px 20px 80px;
+    color: rgb(87, 85, 85);
+}
+.form-field-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+input:focus {
+outline: red;
+}
+.form-label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 13px;
+}
+.form-input {
+    display: block;
+    width: 257px;
+    padding: 5px;
+}
+.form-input-select {
+    padding: 5px;
+    display: block;
+    width: 257px;
+}
+.form-footer {
+    margin-top: 50px;
+    /* right: 35%; */
+    position: absolute;
+
+}
+.form-input-multi-select {
+    display: block;
+    width: 258px;
+
+}
+:global .form-input-multi-select {
+    /* width: 258px; */
+    height: 300px;
+}
+.attachment-container {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+    /* margin-right: 12px; */
+    border: 1px solid #1297e0;
+    border-radius: 4px;
+    color: #1297e0;
+}
+.attachment-container img {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.upload-label {
+    margin-top: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.buttons {
+    display: inline;
+}
+.add-route-button-save {
+    display: inline-block;
+    width: 70px;
+}
+.add-route-button-cancel {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.attachment-file-label {
+    width: 100px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #1297e0;
+    margin-left: -15px;
+    display: block;
+}
+.error {
+    outline: red;
+}
+.close-route {
+    position: absolute;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}

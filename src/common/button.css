@@ -1,0 +1,24 @@
+.primary-button {
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #1297e0;
+    border-color: transparent;
+    color: #fff;
+    border: 1px solid #1297e0;
+    cursor: pointer;
+    justify-content: center;
+    white-space: nowrap;
+    /* width: 50px; */
+}
+.secondary-button {
+    border-radius: 4px;
+    padding: 8px;
+    color: #1297e0;
+    border: 1px solid #1297e0;
+    background-color: #fff;
+    border-width: 1px;
+    cursor: pointer;
+    justify-content: center;
+    white-space: nowrap;
+    /* width: 50px; */
+}
