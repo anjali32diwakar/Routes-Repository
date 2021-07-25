@@ -33,7 +33,6 @@ const ManageRoute = (props) => {
   const [selectedStatus, setSelectedStatus] = useState([]);
   const directionOptions = getDirectionOptions();
   const [selectedDirection, setSelectedDirection] = useState([]);
-  const [isInputError, setIsInputError] = useState(false);
   const [csvFileName, setCSVFileName] = useState("");
 
   const isFormValid = () => {
@@ -47,7 +46,6 @@ const ManageRoute = (props) => {
 
   const saveHandler = () => {
     if (!isFormValid()) {
-      setIsInputError(true);
     } else {
       const addedRouteDetails = {
         name: routeName,
