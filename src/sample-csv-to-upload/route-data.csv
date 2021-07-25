@@ -1,0 +1,6 @@
+﻿"name","direction","routeId","status","stopsList"
+"AGR-PUN","UP","106","Active","101,104"
+"BLR-MUM","DOWN","107","Inactive","109,110"
+"PUN-DEL","DOWN","108","Inactive","106,107,109"
+"DEL-CHN","UP","109","Inactive","101,103,106,109"
+"BLR-DEL","DOWN","110","Active","108,107"
